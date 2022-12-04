@@ -48,10 +48,10 @@
 [Program 4]
 
 @ @ @ @ @  
-**\_@ @ @ @  
-\_\_\_\_**@ @ @  
-****\_****@ @  
-****\_\_\_\_****@
+__@ @ @ @  
+____@ @ @  
+______@ @  
+________@
 
 17. WAP to sum and average all the elements of an array of size 10. Ask the user for the input.
 
