@@ -13,12 +13,5 @@ int main()
             break;
         }
     }
-    if (count == 0)
-    {
-        printf("%d is a prime number", num);
-    }
-    else
-    {
-        printf("%d is not a prime number", num);
-    }
+    count == 0 ? printf("%d is a prime number", num) : printf("%d is not a prime number", num);
 } // Main
