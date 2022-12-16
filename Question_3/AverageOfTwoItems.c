@@ -2,16 +2,12 @@
 
 int main()
 {
-    float rate1, quantity1, rate2, quantity2, average;
-    printf("Enter the Quantity of first item:");
-    scanf("%f", &quantity1);
-    printf("Enter the Rate of first item:");
-    scanf("%f", &rate1);
-    printf("Enter the Quantity of second item:");
-    scanf("%f", &quantity2);
-    printf("Enter the Rate of second item:");
-    scanf("%f", &rate2);
-    average = ((rate1 * quantity1) + (rate2 * quantity2)) / (rate1 + rate2);
-    printf("Average of the Items %.2f is %.2f", rate1 + rate2, average);
+    float rate1, quantity1, rate2, quantity2;
+    printf("Enter the rate and quantity of item 1:");
+    scanf("%f%f", &rate1,&quantity1);
+    printf("Enter the rate and quantity of item 2:");
+    scanf("%f%f", &rate2,&quantity2);
+    printf("Average value of the first Item is Rs%.2f ", rate1 / quantity1);
+    printf("Average value of the second Item is Rs%.2f", rate2 / quantity2);
     return 0;
 } // Main
