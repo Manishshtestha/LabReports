@@ -2,10 +2,8 @@
 int main()
 {
     int num1, num2, sum;
-    printf("Enter first number: ");
-    scanf("%d", &num1);
-    printf("Enter second number: ");
-    scanf("%d", &num2);
+    printf("Enter two numbers:");
+    scanf("%d%d",&num1,&num2);
     sum = num1 + num2;
     printf("Sum of %d and %d is %d\n", num1, num2, sum);                                           // int
     printf("Sum of %u and %u is %u\n", num1, num2, sum);                                           // Unsigned int
