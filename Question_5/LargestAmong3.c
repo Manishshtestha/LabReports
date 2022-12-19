@@ -11,9 +11,12 @@ int main(int argc, char const *argv[])
     scanf("%d", &num3);
     if (num1 > num2)
     {
-        if (num2 >= num3)
+        if (num1 > num3)
         {
             printf("The number %d is largest among %d,%d,%d", num1, num1, num2, num3);
+        }
+        else{
+            printf("The number %d is largest",num3)
         }
     }
     else if (num2 > num3)
