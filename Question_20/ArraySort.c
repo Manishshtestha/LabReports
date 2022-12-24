@@ -9,7 +9,7 @@ int main()
     }
     for(i = 0;i<count;i++){
         for(j = i+1;j<count;j++){
-            if (a[i] < a[j]){
+            if (a[i] > a[j]){
                 temp = a[i];
                 a[i] = a[j];
                 a[j] = temp;
@@ -21,4 +21,3 @@ int main()
     }
     return 0;
 }//Main
-
