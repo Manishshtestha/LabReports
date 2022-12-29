@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define row 2
+#define row 3
 #define col 3
 int main()
 {
