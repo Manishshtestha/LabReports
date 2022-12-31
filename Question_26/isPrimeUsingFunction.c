@@ -2,13 +2,13 @@
 
 int isPrime(int num){
     int T = 0;
-    for(int i = 0; i<=(num/2) ;i++){
+    for(int i = 2; i<=(num/2) ;i++){
         if(num % i == 0){
             T++;
             break;
         }
     }
-    T == 1 ? printf("%d",1):printf("%d",0);
+    T == 0 ? printf("%d",1):printf("%d",0);
 }
 
 int main(){
