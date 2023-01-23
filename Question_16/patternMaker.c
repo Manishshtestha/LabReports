@@ -1,7 +1,4 @@
 #include <stdio.h>
-int function(){
-    
-}
 int main()
 {
     // Pattern no 1;
