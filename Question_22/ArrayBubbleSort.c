@@ -3,12 +3,12 @@
 int main()
 {
     int i, j, temp,a[count];
+    printf("Enter number 10 numbers:\n");
     for(i=0;i<count;i++){
-        printf("Enter number (%d)",i+1);
         scanf("%d",&a[i]);
     }
     for(i = 0;i<count;i++){
-        for(j = 0;j<count;j++){
+        for(j = 0;j<count-i;j++){
             if (a[j] > a[j+1]){
                 temp = a[j];
                 a[j] = a[j+1];
